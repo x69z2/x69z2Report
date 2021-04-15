@@ -10,6 +10,8 @@ logo = """
 ▀▄░▄▀ ▄▀▀▄ ▄▀▀▄ ░█▀▀▀█ █▀█ 
 ─░█── █▄▄─ ▀▄▄█ ─▄▄▄▀▀ ─▄▀ 
 ▄▀░▀▄ ▀▄▄▀ ─▄▄▀ ░█▄▄▄█ █▄▄"""
+
+
 print(logo)
 print("Write accounts you want to report from in accounts.txt as usr:pass")
 print("")
@@ -141,7 +143,7 @@ class Strng():
                         req = self.r.post(url,data=data,headers=self.headers,cookies=cookies)
 
                         if '{"status":"ok"}' in req.text:
-                            print(self.lgreen+f"done report by @- [ #GREATEST ⥌ #X69Z2 ] - total stories reported [{done}]")
+                            print(self.lgreen+f"done report by @X69Z2 total stories reported [{done}]")
                             done+=1
                         else:
                             error+=1
