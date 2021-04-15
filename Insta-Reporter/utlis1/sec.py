@@ -1,1 +1,0 @@
-sectime = "pastebin.com/"
