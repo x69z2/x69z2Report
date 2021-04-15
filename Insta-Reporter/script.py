@@ -95,7 +95,7 @@ class Strng():
 
         self.target = str(input(self.yellow+'[+] Target to report >> '))
 
-        if self.target == "- [ #GREATEST ⥌ #X69Z2 ] -":
+        if self.target == "- [⥌ X69Z2 ] -":
             print(self.lred+f"You're too stupid to report the programmer :/")
             input("")
             exit(1)
