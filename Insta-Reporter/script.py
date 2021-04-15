@@ -95,7 +95,7 @@ class Strng():
 
         self.target = str(input(self.yellow+'[+] Target to report >> '))
 
-        if self.target == "- [⥌ X69Z2 ] -":
+        if self.target == "- [ X69Z2 ] -":
             print(self.lred+f"You're too stupid to report the programmer :/")
             input("")
             exit(1)
@@ -145,7 +145,7 @@ class Strng():
                         req = self.r.post(url,data=data,headers=self.headers,cookies=cookies)
 
                         if '{"status":"ok"}' in req.text:
-                            print(self.lgreen+f"done report by @- [ #GREATEST ⥌ #X69Z2 ] - total stories reported [{done}]")
+                            print(self.lgreen+f"done report by @- [ #X69Z2 ] - total stories reported [{done}]")
                             done+=1
                         else:
                             error+=1
